@@ -2,8 +2,7 @@
 
 namespace Alura\Banco\Service;
 
-use Alura\Banco\Modelo\Funcionario;
-
+use Alura\Banco\Modelo\Funcionario\Funcionario;
 class ControladorDeBonificacoes
 {
     protected float $bonificacao = 0;
