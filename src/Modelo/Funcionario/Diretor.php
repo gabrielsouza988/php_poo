@@ -4,7 +4,7 @@ namespace Alura\Banco\Modelo\Funcionario;
 
 class Diretor extends Funcionario
 {
-    public function calculaBonificacao(): float 
+    public function calculaBonificacao(): float
     {
         return $this->recuperarSalario() * 2;
     }
@@ -13,5 +13,4 @@ class Diretor extends Funcionario
     {
         return $senha == '1234';
     }
-
 }

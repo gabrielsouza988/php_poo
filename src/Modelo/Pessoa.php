@@ -2,7 +2,7 @@
 
 namespace Alura\Banco\Modelo;
 
-class Pessoa
+Abstract class Pessoa
 {
     private CPF $cpf;
     protected string $nome;
