@@ -23,7 +23,7 @@ Abstract class Pessoa
         return $this->nome;
     }
 
-    protected function validarNome(string $nome): void
+    final protected function validarNome(string $nome): void
     {
         if (strlen($nome) < 5) {
             echo "Nome deve ter mais do que 5 caracteres";
